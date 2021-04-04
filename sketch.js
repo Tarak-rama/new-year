@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   colorMode(RGB);
   background(0, 0, 0, 25);
-  
+  console.log("learning git hub command")
   if (random(1) < 0.03) {
     fireworks.push(new Firework());
   }
